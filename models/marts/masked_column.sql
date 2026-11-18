@@ -1,0 +1,1 @@
+select first_name, email, {{ substr_column('phone_number') }} as phone_number from {{ ref('Customer_T') }}

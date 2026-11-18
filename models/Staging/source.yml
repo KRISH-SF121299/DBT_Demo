@@ -1,0 +1,8 @@
+sources:
+  - name: staging_customers
+    database: customer_db  
+    schema: customer_schema  
+    tables:
+          - name: customer
+
+  
